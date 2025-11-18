@@ -12,7 +12,7 @@ import { WorkspaceSchemaManagerModule } from 'src/engine/twenty-orm/workspace-sc
     WorkspaceSchemaManagerModule,
     ApplicationModule,
   ],
-  providers: [],
+  providers: [CreateWorkspaceCustomApplicationCommand],
   exports: [CreateWorkspaceCustomApplicationCommand],
 })
 export class V1_12_UpgradeVersionCommandModule {}
