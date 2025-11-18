@@ -1,16 +1,16 @@
 import { msg } from '@lingui/core/macro';
 import { v4 } from 'uuid';
 
+import { STANDARD_OBJECTS } from 'src/engine/core-modules/application/constants/standard-object.constant';
 import { type FlatApplication } from 'src/engine/core-modules/application/types/flat-application.type';
 import { type ObjectMetadataEntity } from 'src/engine/metadata-modules/object-metadata/object-metadata.entity';
 import { ViewOpenRecordInType } from 'src/engine/metadata-modules/view/types/view-open-record-in-type.type';
 import { type ViewDefinition } from 'src/engine/workspace-manager/standard-objects-prefill-data/types/view-definition.interface';
 import {
-  BASE_OBJECT_STANDARD_FIELD_IDS,
-  WORKFLOW_STANDARD_FIELD_IDS,
+    BASE_OBJECT_STANDARD_FIELD_IDS,
+    WORKFLOW_STANDARD_FIELD_IDS,
 } from 'src/engine/workspace-manager/workspace-sync-metadata/constants/standard-field-ids';
 import { STANDARD_OBJECT_IDS } from 'src/engine/workspace-manager/workspace-sync-metadata/constants/standard-object-ids';
-import { STANDARD_OBJECTS } from 'src/engine/workspace-manager/workspace-sync-metadata/constants/standard-object.constant';
 
 export const workflowsAllView = ({
   objectMetadataItems,
