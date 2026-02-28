@@ -13,7 +13,7 @@ The HRMS Hub ships in 4 phases, each delivering a complete, verifiable capabilit
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Person-Centric Foundation** - App scaffold, Person extension fields, filtered views, and navigation
-- [ ] **Phase 2: Contract Tracking** - Contract custom object with client/vendor/placement/profitability fields and Person relation
+- [x] **Phase 2: Contract Tracking** - Contract custom object with client/vendor/placement/profitability fields and Person relation
 - [ ] **Phase 3: Immigration Records** - Visa Record custom object with structured, JSON detail, and document fields and Person relation
 - [ ] **Phase 4: Compliance Tracking** - Compliance Record custom object with federal, state/client, and audit fields and Person relation
 
@@ -48,8 +48,8 @@ Plans:
 **Plans**: TBD
 
 Plans:
-- [ ] 02-01: Contract object definition with core, client, vendor, placement, and profitability fields
-- [ ] 02-02: Contract-to-Person relation (paired defineField calls: MANY_TO_ONE + ONE_TO_MANY)
+- [x] 02-01: Contract object definition with core, client, vendor, placement, and profitability fields
+- [x] 02-02: Contract-to-Person relation (paired defineField calls: MANY_TO_ONE + ONE_TO_MANY)
 
 ### Phase 3: Immigration Records
 **Goal**: Users can track every consultant's visa history, work authorization dates, and immigration case details through linked Visa Records
@@ -90,6 +90,6 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Person-Centric Foundation | 3/3 | Complete | 2026-02-28 |
-| 2. Contract Tracking | 0/2 | Not started | - |
+| 2. Contract Tracking | 2/2 | Complete | 2026-02-28 |
 | 3. Immigration Records | 0/2 | Not started | - |
 | 4. Compliance Tracking | 0/2 | Not started | - |
