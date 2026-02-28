@@ -1,0 +1,12 @@
+import { defineField, FieldType } from 'twenty-sdk';
+import { PERSON_OBJECT_ID, UUIDS } from '../constants';
+
+export default defineField({
+  universalIdentifier: UUIDS.fields.startDate,
+  objectUniversalIdentifier: PERSON_OBJECT_ID,
+  type: FieldType.DATE_TIME,
+  name: 'startDate',
+  label: 'Start Date',
+  description: 'Date when the consultant joined the organization',
+  icon: 'IconCalendarEvent',
+});
