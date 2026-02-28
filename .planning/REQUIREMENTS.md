@@ -42,12 +42,12 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Contract Object
 
-- [ ] **CONTRACT-01**: Contract defineObject() with core fields (status, contractType, startDate, endDate, value, renewalDate, autoRenew, probationEndDate, noticePeriod, contractNumber, department, notes, documentLinks)
-- [ ] **CONTRACT-02**: Client fields on Contract (clientName, clientContactName, clientContactEmail, clientContactPhone, clientWorksite, clientIndustry, msaStatus, clientManagerName, billRate)
-- [ ] **CONTRACT-03**: Vendor fields on Contract (vendorName, vendorContactName, vendorContactEmail, vendorPaymentTerms, vendorMargin, vendorContractStatus)
-- [ ] **CONTRACT-04**: Placement fields on Contract (placementChain, placementStartDate, placementEndDate)
-- [ ] **CONTRACT-05**: Profitability fields on Contract (consultantPayRate, yourMargin, rateType)
-- [ ] **CONTRACT-06**: Contract → Person relation (MANY_TO_ONE: each contract belongs to one person)
+- [x] **CONTRACT-01**: Contract defineObject() with core fields (status, contractType, startDate, endDate, value, renewalDate, autoRenew, probationEndDate, noticePeriod, contractNumber, department, notes, documentLinks)
+- [x] **CONTRACT-02**: Client fields on Contract (clientName, clientContactName, clientContactEmail, clientContactPhone, clientWorksite, clientIndustry, msaStatus, clientManagerName, billRate)
+- [x] **CONTRACT-03**: Vendor fields on Contract (vendorName, vendorContactName, vendorContactEmail, vendorPaymentTerms, vendorMargin, vendorContractStatus)
+- [x] **CONTRACT-04**: Placement fields on Contract (placementChain, placementStartDate, placementEndDate)
+- [x] **CONTRACT-05**: Profitability fields on Contract (consultantPayRate, yourMargin, rateType)
+- [x] **CONTRACT-06**: Contract → Person relation (MANY_TO_ONE: each contract belongs to one person)
 
 ### Visa Record Object
 
@@ -129,12 +129,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | VIEW-05 | Phase 1 | Complete |
 | VIEW-06 | Phase 1 | Complete |
 | NAV-01 | Phase 1 | Complete |
-| CONTRACT-01 | Phase 2 | Pending |
-| CONTRACT-02 | Phase 2 | Pending |
-| CONTRACT-03 | Phase 2 | Pending |
-| CONTRACT-04 | Phase 2 | Pending |
-| CONTRACT-05 | Phase 2 | Pending |
-| CONTRACT-06 | Phase 2 | Pending |
+| CONTRACT-01 | Phase 2 | Complete |
+| CONTRACT-02 | Phase 2 | Complete |
+| CONTRACT-03 | Phase 2 | Complete |
+| CONTRACT-04 | Phase 2 | Complete |
+| CONTRACT-05 | Phase 2 | Complete |
+| CONTRACT-06 | Phase 2 | Complete |
 | VISA-01 | Phase 3 | Pending |
 | VISA-02 | Phase 3 | Pending |
 | VISA-03 | Phase 3 | Pending |
@@ -151,4 +151,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-02-27*
-*Last updated: 2026-02-28 after Phase 1 completion*
+*Last updated: 2026-02-28 after Phase 2 completion*
