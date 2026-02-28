@@ -1,0 +1,91 @@
+import { defineField, FieldType } from 'twenty-sdk';
+import { PERSON_OBJECT_ID, UUIDS } from '../constants';
+
+export default defineField({
+  universalIdentifier: UUIDS.fields.visaType,
+  objectUniversalIdentifier: PERSON_OBJECT_ID,
+  type: FieldType.SELECT,
+  name: 'visaType',
+  label: 'Visa Type',
+  description: 'Immigration visa or work authorization type',
+  icon: 'IconId',
+  options: [
+    {
+      id: UUIDS.options.visaType.h1b,
+      value: 'H1B',
+      label: 'H-1B',
+      color: 'blue',
+      position: 0,
+    },
+    {
+      id: UUIDS.options.visaType.h4Ead,
+      value: 'H4_EAD',
+      label: 'H-4 EAD',
+      color: 'sky',
+      position: 1,
+    },
+    {
+      id: UUIDS.options.visaType.l1a,
+      value: 'L1A',
+      label: 'L-1A',
+      color: 'purple',
+      position: 2,
+    },
+    {
+      id: UUIDS.options.visaType.l1b,
+      value: 'L1B',
+      label: 'L-1B',
+      color: 'pink',
+      position: 3,
+    },
+    {
+      id: UUIDS.options.visaType.f1Opt,
+      value: 'F1_OPT',
+      label: 'F-1 OPT',
+      color: 'orange',
+      position: 4,
+    },
+    {
+      id: UUIDS.options.visaType.stemOpt,
+      value: 'STEM_OPT',
+      label: 'STEM OPT',
+      color: 'yellow',
+      position: 5,
+    },
+    {
+      id: UUIDS.options.visaType.tn,
+      value: 'TN',
+      label: 'TN',
+      color: 'turquoise',
+      position: 6,
+    },
+    {
+      id: UUIDS.options.visaType.o1,
+      value: 'O1',
+      label: 'O-1',
+      color: 'red',
+      position: 7,
+    },
+    {
+      id: UUIDS.options.visaType.greenCard,
+      value: 'GREEN_CARD',
+      label: 'Green Card',
+      color: 'green',
+      position: 8,
+    },
+    {
+      id: UUIDS.options.visaType.usCitizen,
+      value: 'US_CITIZEN',
+      label: 'US Citizen',
+      color: 'gray',
+      position: 9,
+    },
+    {
+      id: UUIDS.options.visaType.ead,
+      value: 'EAD',
+      label: 'EAD',
+      color: 'pink',
+      position: 10,
+    },
+  ],
+});
