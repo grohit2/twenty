@@ -33,7 +33,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 Plans:
 - [x] 01-01-PLAN.md -- App scaffold (package.json, tsconfig, constants.ts with all UUIDs, defineApplication, defineRole, pre/post install logic)
-- [ ] 01-02-PLAN.md -- Person extension fields (9 defineField files: 3 SELECT, 2 NUMBER, 2 DATE_TIME, 2 TEXT)
+- [x] 01-02-PLAN.md -- Person extension fields (9 defineField files: 3 SELECT, 2 NUMBER, 2 DATE_TIME, 2 TEXT)
 - [ ] 01-03-PLAN.md -- People views and navigation (6 defineView + 6 defineNavigationMenuItem files)
 
 ### Phase 2: Contract Tracking
@@ -89,7 +89,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Person-Centric Foundation | 1/3 | In progress | - |
+| 1. Person-Centric Foundation | 2/3 | In progress | - |
 | 2. Contract Tracking | 0/2 | Not started | - |
 | 3. Immigration Records | 0/2 | Not started | - |
 | 4. Compliance Tracking | 0/2 | Not started | - |
