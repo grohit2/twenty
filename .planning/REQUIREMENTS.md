@@ -9,36 +9,36 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### App Scaffold
 
-- [ ] **SCAFFOLD-01**: App config with defineApplication() — HRMS Hub metadata, icon, description
-- [ ] **SCAFFOLD-02**: Default role with defineRole() — read access to all object records
-- [ ] **SCAFFOLD-03**: Pre-install logic function — validation log
-- [ ] **SCAFFOLD-04**: Post-install logic function — success log
-- [ ] **SCAFFOLD-05**: All UUIDs centralized in constants.ts
+- [x] **SCAFFOLD-01**: App config with defineApplication() — HRMS Hub metadata, icon, description
+- [x] **SCAFFOLD-02**: Default role with defineRole() — read access to all object records
+- [x] **SCAFFOLD-03**: Pre-install logic function — validation log
+- [x] **SCAFFOLD-04**: Post-install logic function — success log
+- [x] **SCAFFOLD-05**: All UUIDs centralized in constants.ts
 
 ### Person Fields
 
-- [ ] **FIELD-01**: Employment Type field on Person (SELECT: W2, 1099, C2C)
-- [ ] **FIELD-02**: Employment Status field on Person (SELECT: Active, On Bench, On Leave, Onboarding, Terminated)
-- [ ] **FIELD-03**: Visa Type field on Person (SELECT: H1B, H4 EAD, L1A, L1B, F1 OPT, STEM OPT, TN, O1, Green Card, US Citizen, EAD)
-- [ ] **FIELD-04**: Pay Rate field on Person (NUMBER: hourly rate paid to consultant)
-- [ ] **FIELD-05**: Bill Rate field on Person (NUMBER: hourly rate charged to client)
-- [ ] **FIELD-06**: Start Date field on Person (DATE_TIME: when consultant joined)
-- [ ] **FIELD-07**: Placed At field on Person (TEXT: current client name)
-- [ ] **FIELD-08**: Recruiter field on Person (TEXT: internal recruiter name)
-- [ ] **FIELD-09**: Bench Since field on Person (DATE_TIME: when went on bench)
+- [x] **FIELD-01**: Employment Type field on Person (SELECT: W2, 1099, C2C)
+- [x] **FIELD-02**: Employment Status field on Person (SELECT: Active, On Bench, On Leave, Onboarding, Terminated)
+- [x] **FIELD-03**: Visa Type field on Person (SELECT: H1B, H4 EAD, L1A, L1B, F1 OPT, STEM OPT, TN, O1, Green Card, US Citizen, EAD)
+- [x] **FIELD-04**: Pay Rate field on Person (NUMBER: hourly rate paid to consultant)
+- [x] **FIELD-05**: Bill Rate field on Person (NUMBER: hourly rate charged to client)
+- [x] **FIELD-06**: Start Date field on Person (DATE_TIME: when consultant joined)
+- [x] **FIELD-07**: Placed At field on Person (TEXT: current client name)
+- [x] **FIELD-08**: Recruiter field on Person (TEXT: internal recruiter name)
+- [x] **FIELD-09**: Bench Since field on Person (DATE_TIME: when went on bench)
 
 ### People Views
 
-- [ ] **VIEW-01**: All People view — default table view with key columns visible
-- [ ] **VIEW-02**: Active Consultants view — filter: employmentStatus = ACTIVE, sort by placementClient
-- [ ] **VIEW-03**: W2 Employees view — filter: employmentType = W2, sort by name
-- [ ] **VIEW-04**: 1099 / C2C view — filter: employmentType IN [1099, C2C], sort by employmentType then name
-- [ ] **VIEW-05**: On Bench view — filter: employmentStatus = ON_BENCH, sort by benchStartDate ascending (oldest first = most urgent)
-- [ ] **VIEW-06**: Recently Joined view — filter: createdAt > 30 days ago, sort by createdAt descending
+- [x] **VIEW-01**: All People view — default table view with key columns visible
+- [x] **VIEW-02**: Active Consultants view — filter: employmentStatus = ACTIVE, sort by placementClient
+- [x] **VIEW-03**: W2 Employees view — filter: employmentType = W2, sort by name
+- [x] **VIEW-04**: 1099 / C2C view — filter: employmentType IN [1099, C2C], sort by employmentType then name
+- [x] **VIEW-05**: On Bench view — filter: employmentStatus = ON_BENCH, sort by benchStartDate ascending (oldest first = most urgent)
+- [x] **VIEW-06**: Recently Joined view — filter: createdAt > 30 days ago, sort by createdAt descending
 
 ### Navigation
 
-- [ ] **NAV-01**: Navigation menu items for all 6 People views so they appear in sidebar
+- [x] **NAV-01**: Navigation menu items for all 6 People views so they appear in sidebar
 
 ### Contract Object
 
@@ -108,27 +108,27 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SCAFFOLD-01 | Phase 1 | Pending |
-| SCAFFOLD-02 | Phase 1 | Pending |
-| SCAFFOLD-03 | Phase 1 | Pending |
-| SCAFFOLD-04 | Phase 1 | Pending |
-| SCAFFOLD-05 | Phase 1 | Pending |
-| FIELD-01 | Phase 1 | Pending |
-| FIELD-02 | Phase 1 | Pending |
-| FIELD-03 | Phase 1 | Pending |
-| FIELD-04 | Phase 1 | Pending |
-| FIELD-05 | Phase 1 | Pending |
-| FIELD-06 | Phase 1 | Pending |
-| FIELD-07 | Phase 1 | Pending |
-| FIELD-08 | Phase 1 | Pending |
-| FIELD-09 | Phase 1 | Pending |
-| VIEW-01 | Phase 1 | Pending |
-| VIEW-02 | Phase 1 | Pending |
-| VIEW-03 | Phase 1 | Pending |
-| VIEW-04 | Phase 1 | Pending |
-| VIEW-05 | Phase 1 | Pending |
-| VIEW-06 | Phase 1 | Pending |
-| NAV-01 | Phase 1 | Pending |
+| SCAFFOLD-01 | Phase 1 | Complete |
+| SCAFFOLD-02 | Phase 1 | Complete |
+| SCAFFOLD-03 | Phase 1 | Complete |
+| SCAFFOLD-04 | Phase 1 | Complete |
+| SCAFFOLD-05 | Phase 1 | Complete |
+| FIELD-01 | Phase 1 | Complete |
+| FIELD-02 | Phase 1 | Complete |
+| FIELD-03 | Phase 1 | Complete |
+| FIELD-04 | Phase 1 | Complete |
+| FIELD-05 | Phase 1 | Complete |
+| FIELD-06 | Phase 1 | Complete |
+| FIELD-07 | Phase 1 | Complete |
+| FIELD-08 | Phase 1 | Complete |
+| FIELD-09 | Phase 1 | Complete |
+| VIEW-01 | Phase 1 | Complete |
+| VIEW-02 | Phase 1 | Complete |
+| VIEW-03 | Phase 1 | Complete |
+| VIEW-04 | Phase 1 | Complete |
+| VIEW-05 | Phase 1 | Complete |
+| VIEW-06 | Phase 1 | Complete |
+| NAV-01 | Phase 1 | Complete |
 | CONTRACT-01 | Phase 2 | Pending |
 | CONTRACT-02 | Phase 2 | Pending |
 | CONTRACT-03 | Phase 2 | Pending |
@@ -151,4 +151,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-02-27*
-*Last updated: 2026-02-27 after roadmap creation*
+*Last updated: 2026-02-28 after Phase 1 completion*
