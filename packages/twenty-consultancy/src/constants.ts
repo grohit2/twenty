@@ -101,6 +101,99 @@ export const UUIDS = {
     contractors1099C2c: '7823339a-e4c9-415b-a6a1-56134b9a0db9',
   },
 
+  // ============================
+  // Phase 2: Contract Tracking
+  // ============================
+
+  // Contract custom object
+  contract: {
+    object: '366c353d-92c9-4136-8198-db80ddad5abf',
+
+    // Core fields (CONTRACT-01)
+    status: '5fb27507-bb61-44cb-a3c1-01f99d9f5e84',
+    contractType: 'c1467a9f-2a01-4b25-9c01-4ef52575b11b',
+    startDate: '7f234b02-fb15-473e-8b12-344366eacf96',
+    endDate: '5a028154-6d79-4d87-b02e-e9b1735ca521',
+    value: 'a83c2bfa-48f3-4c99-a94c-abae107367cd',
+    renewalDate: 'b694ddb2-233b-4a8f-ab76-f048b5c3a9e5',
+    autoRenew: 'ddd7647f-0ace-4ed3-b998-b7bc575c8297',
+    probationEndDate: '910cd9b0-50ea-474c-a9c0-9b6f2456be2c',
+    noticePeriod: 'f3067a6e-98c7-4c59-9eb6-5ec57805027f',
+    contractNumber: 'd64de867-7238-4922-b073-c2fecc299a9e',
+    department: 'eea7376e-8378-4414-b1b8-26c636034bd2',
+    notes: '7f9e73e8-e208-4d01-9efe-e9b4cee71c77',
+    documentLinks: 'e693ade9-249b-475d-b2ca-b76d97ec2c96',
+
+    // Client fields (CONTRACT-02)
+    clientName: '8a2e9635-b674-4a8b-a3c2-43182b588a07',
+    clientContactName: '7f432898-e297-471a-a0c9-f5a3c604d38b',
+    clientContactEmail: '6d23b3d2-ba0c-4be8-9289-5369f58e6087',
+    clientContactPhone: '64ed10ef-2a6f-41b4-9bf1-0291d16bbef8',
+    clientWorksite: 'a8632d17-8f16-4f71-bfcc-ca92aa742291',
+    clientIndustry: 'd7f6231c-d0f4-453a-a806-9c4689dbe3bd',
+    msaStatus: '165a5cfd-94a3-4770-9e23-7032880bc300',
+    clientManagerName: '2da9a435-2a44-4654-891b-8d7e071c1955',
+    billRate: 'c8815304-0321-4c3c-9bda-bb1f28269eae',
+
+    // Vendor fields (CONTRACT-03)
+    vendorName: '78a6f893-71fb-4676-9860-9fd32adcb8df',
+    vendorContactName: 'e1397628-5e43-4cab-a119-893b8c42235e',
+    vendorContactEmail: '23747e82-7b0e-4946-a45a-0af823d87712',
+    vendorPaymentTerms: '571ebce6-0d71-4d8c-b4bb-f47705c942fa',
+    vendorMargin: '998871d2-7102-4fc6-97a9-888e23cb654d',
+    vendorContractStatus: '08ca722e-52ee-46cd-8d4d-7081bf898747',
+
+    // Placement fields (CONTRACT-04)
+    placementChain: 'ad6a8539-ec8e-4a59-847e-02412e787c45',
+    placementStartDate: '24a5df62-6a23-482b-a02f-9f47430f175f',
+    placementEndDate: '2b714b35-241e-41ac-a51d-3f58979b7fb4',
+
+    // Profitability fields (CONTRACT-05)
+    consultantPayRate: 'eea683bc-795f-4aa6-8012-e4d906a160c6',
+    yourMargin: '64191935-0078-4ab6-90a1-b80defe4a3c3',
+    rateType: '0f6534e9-4bf8-4aac-a9a4-2265968c9a4a',
+
+    // Relation fields (CONTRACT-06)
+    personRelation: '2dae6b78-0f2f-443c-a11a-38c74de4f0e5',
+    contractsOnPerson: '4a815893-a5e0-44fa-9bb6-661ad7e913f7',
+
+    // SELECT option IDs
+    options: {
+      status: {
+        draft: '091228b4-c7d8-49ec-be8e-4daf11554559',
+        active: '34f5479c-2c0d-477a-b072-6a4a897dc763',
+        expired: 'fa66935c-e19f-4eda-a749-b61487ce5b75',
+        terminated: '3beaac87-8cac-4e17-84ea-f28821e285b8',
+        renewed: '47041c8c-e64e-47d1-b64d-2d319e190a63',
+        onHold: 'cc8d72d3-e6a4-4d96-b092-7d970aaf08e6',
+      },
+      contractType: {
+        w2: '169f09b4-1b93-4c25-8124-38389f4d657a',
+        c2c: 'b4a9644d-3590-41ed-bc6c-be450ce06da9',
+        _1099: '98dcd5e5-001c-41cd-afd9-01a2157aaefc',
+        subcontract: '669a9a2a-e6c7-4c9c-b365-2c6b32a1bae6',
+        directHire: '7461ed76-70e0-463a-9850-7946edc6219a',
+      },
+      rateType: {
+        hourly: 'f793a41f-590d-435c-b7d9-8da6f523685c',
+        annual: 'c81b466f-276b-45dd-b9a3-93f8688168c1',
+        fixed: '3ebefabb-ff31-4171-a670-aee7516c2271',
+      },
+      msaStatus: {
+        active: 'be73d244-f103-4d72-8909-12e1dd291ad5',
+        pending: '23d3645f-40d5-4f9e-bc51-f10005acdcd5',
+        expired: 'beec45b9-2785-4587-8779-3b458aafc596',
+        notApplicable: '543ddc0d-cca9-42d4-b50b-8221093225a1',
+      },
+      vendorContractStatus: {
+        active: '883e1c8b-fa05-4835-ba7b-9ff97aaa00cb',
+        pending: 'd51e2c43-4d36-458c-9a0f-8b2d81ece98a',
+        expired: '86d2a045-9ac0-460d-80dc-b10d1f2023fc',
+        terminated: '09487741-e715-474d-9edf-7aca60480eea',
+      },
+    },
+  },
+
   // View fields (columns shown in each view)
   viewFields: {
     allPeople: {
