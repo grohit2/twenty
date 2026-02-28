@@ -108,47 +108,47 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SCAFFOLD-01 | — | Pending |
-| SCAFFOLD-02 | — | Pending |
-| SCAFFOLD-03 | — | Pending |
-| SCAFFOLD-04 | — | Pending |
-| SCAFFOLD-05 | — | Pending |
-| FIELD-01 | — | Pending |
-| FIELD-02 | — | Pending |
-| FIELD-03 | — | Pending |
-| FIELD-04 | — | Pending |
-| FIELD-05 | — | Pending |
-| FIELD-06 | — | Pending |
-| FIELD-07 | — | Pending |
-| FIELD-08 | — | Pending |
-| FIELD-09 | — | Pending |
-| VIEW-01 | — | Pending |
-| VIEW-02 | — | Pending |
-| VIEW-03 | — | Pending |
-| VIEW-04 | — | Pending |
-| VIEW-05 | — | Pending |
-| VIEW-06 | — | Pending |
-| NAV-01 | — | Pending |
-| CONTRACT-01 | — | Pending |
-| CONTRACT-02 | — | Pending |
-| CONTRACT-03 | — | Pending |
-| CONTRACT-04 | — | Pending |
-| CONTRACT-05 | — | Pending |
-| CONTRACT-06 | — | Pending |
-| VISA-01 | — | Pending |
-| VISA-02 | — | Pending |
-| VISA-03 | — | Pending |
-| VISA-04 | — | Pending |
-| COMPLIANCE-01 | — | Pending |
-| COMPLIANCE-02 | — | Pending |
-| COMPLIANCE-03 | — | Pending |
-| COMPLIANCE-04 | — | Pending |
+| SCAFFOLD-01 | Phase 1 | Pending |
+| SCAFFOLD-02 | Phase 1 | Pending |
+| SCAFFOLD-03 | Phase 1 | Pending |
+| SCAFFOLD-04 | Phase 1 | Pending |
+| SCAFFOLD-05 | Phase 1 | Pending |
+| FIELD-01 | Phase 1 | Pending |
+| FIELD-02 | Phase 1 | Pending |
+| FIELD-03 | Phase 1 | Pending |
+| FIELD-04 | Phase 1 | Pending |
+| FIELD-05 | Phase 1 | Pending |
+| FIELD-06 | Phase 1 | Pending |
+| FIELD-07 | Phase 1 | Pending |
+| FIELD-08 | Phase 1 | Pending |
+| FIELD-09 | Phase 1 | Pending |
+| VIEW-01 | Phase 1 | Pending |
+| VIEW-02 | Phase 1 | Pending |
+| VIEW-03 | Phase 1 | Pending |
+| VIEW-04 | Phase 1 | Pending |
+| VIEW-05 | Phase 1 | Pending |
+| VIEW-06 | Phase 1 | Pending |
+| NAV-01 | Phase 1 | Pending |
+| CONTRACT-01 | Phase 2 | Pending |
+| CONTRACT-02 | Phase 2 | Pending |
+| CONTRACT-03 | Phase 2 | Pending |
+| CONTRACT-04 | Phase 2 | Pending |
+| CONTRACT-05 | Phase 2 | Pending |
+| CONTRACT-06 | Phase 2 | Pending |
+| VISA-01 | Phase 3 | Pending |
+| VISA-02 | Phase 3 | Pending |
+| VISA-03 | Phase 3 | Pending |
+| VISA-04 | Phase 3 | Pending |
+| COMPLIANCE-01 | Phase 4 | Pending |
+| COMPLIANCE-02 | Phase 4 | Pending |
+| COMPLIANCE-03 | Phase 4 | Pending |
+| COMPLIANCE-04 | Phase 4 | Pending |
 
 **Coverage:**
 - v1 requirements: 35 total
-- Mapped to phases: 0
-- Unmapped: 35
+- Mapped to phases: 35
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-27*
-*Last updated: 2026-02-27 after initial definition*
+*Last updated: 2026-02-27 after roadmap creation*
