@@ -29,12 +29,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Six People views appear in the sidebar navigation and correctly filter consultants (All People, Active, W2, 1099/C2C, On Bench, Recently Joined)
   4. All UUIDs are centralized in constants.ts with no duplicates across the manifest
   5. SELECT fields show correct dropdown options (W2/1099/C2C for employment type, 11 visa types for visa type, 5 statuses for employment status)
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 01-01: App scaffold (defineApplication, defineRole, logic functions, constants.ts with all UUIDs)
-- [ ] 01-02: Person extension fields (9 defineField files for Person object)
-- [ ] 01-03: People views and navigation (6 defineView files + defineNavigationMenuItem for each)
+- [x] 01-01-PLAN.md -- App scaffold (package.json, tsconfig, constants.ts with all UUIDs, defineApplication, defineRole, pre/post install logic)
+- [ ] 01-02-PLAN.md -- Person extension fields (9 defineField files: 3 SELECT, 2 NUMBER, 2 DATE_TIME, 2 TEXT)
+- [ ] 01-03-PLAN.md -- People views and navigation (6 defineView + 6 defineNavigationMenuItem files)
 
 ### Phase 2: Contract Tracking
 **Goal**: Users can create and manage placement contracts linked to consultants, tracking client/vendor chains, dates, and profitability per contract
@@ -89,7 +89,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Person-Centric Foundation | 0/3 | Not started | - |
+| 1. Person-Centric Foundation | 1/3 | In progress | - |
 | 2. Contract Tracking | 0/2 | Not started | - |
 | 3. Immigration Records | 0/2 | Not started | - |
 | 4. Compliance Tracking | 0/2 | Not started | - |
